@@ -1,0 +1,101 @@
+html { position: relative; margin: 0; padding: 0; }
+body { margin: 0; padding: 0; text-align: left; }
+#imPage { position: relative; width: 100%; }
+#imHeaderBg { position: absolute; left: 0; top: 0; width: 100%; }
+#imMnMnGraphics { position: absolute; top: 0; bottom: 0; z-index: 9; }
+#imContentContainer { position: relative; }
+#imContent { position: relative; }
+#imContentGraphics { position: absolute; top: 0; bottom: 0; }
+#imFooPad { float: left; margin: 0 auto; }
+#imBtMnContainer { clear: both; }
+.imPageRow { position: relative; clear: both; overflow: hidden; zoom: 1; float: left; width: 100%; }
+.imHGroup:after, .imUGroup:after, .imVGroup:after { content: ""; display: table; clear: both; }
+#imFooterBg { position: absolute; left: 0; bottom: 0; width: 100%; }
+#imFooter { position: relative; }
+@media (min-width: 960px) {
+		html { background-image: none; background-color: #EFE9E7; }
+		#imPage { padding-top: 36px; margin-top: 0px; margin-bottom: 0px; min-width: 960px; }
+		#imHeaderBg { height: 433px; background-image: url('header-bg.jpg'); background-position: center bottom; background-repeat: repeat-x; background-attachment: scroll; background-color: transparent; }
+		#imHeader { position: relative; margin-bottom: 0; margin-left: auto; margin-right: auto; height: 430px; background-image: url('header.png'); background-position: center top; background-repeat: no-repeat; background-attachment: scroll; background-color: transparent; }
+		#imHeaderObjects { position: relative; height: 430px; }
+		#imMnMnContainer { position: absolute; top: 0; left: 0; right: 0; margin-left: auto; margin-right: auto; }
+		#imMnMn { position: relative; height: 31px; padding: 0px 5px 5px 5px; background-image: none; background-color: transparent; }
+		#imMnMn > ul { text-align: center; }
+		#imMnMn li { display: inline; }
+		#imMnMnGraphics { display: none; }
+		#imContent { min-height: 380px; padding: 5px 0 5px 0; }
+		#imContentGraphics { left: 0; right: 0; margin-left: auto; margin-right: auto; min-height: 380px;  background-image: none; background-color: transparent; }
+		#imFooterBg { height: 90px; background-image: none; background-color: #000000; }
+		#imFooter { margin-left: auto; margin-right: auto; height: 90px; background-image: none; background-color: #000000; }
+		#imFooterObjects { position: relative; height: 90px; }
+		#imFooPad { height: 380px; }
+		#imHeader, #imMnMnContainer, #imFooter { width: 960px; }
+		#imMnMn { width: 950px; }
+		#imContentGraphics { width: 960px; }
+	
+}
+@media  (max-width: 959px) and (min-width: 720px) {
+		html { background-image: none; background-color: #EFE9E7; }
+		#imPage { padding-top: 0; margin-top: 0px; margin-bottom: 0px; min-width: 720px; }
+		#imHeaderBg { height: 433px; background-image: url('header-bg-1-.jpg'); background-position: center bottom; background-repeat: repeat-x; background-attachment: scroll; background-color: transparent; }
+		#imHeader { position: relative; margin-bottom: 36px; margin-left: auto; margin-right: auto; height: 60px; background-image: none; background-color: #000000; }
+		#imHeaderObjects { position: relative; height: 60px; }
+		#imMnMnContainer { position: absolute; top: 60px; left: 0; right: 0; margin-left: auto; margin-right: auto; }
+		#imMnMn { position: relative; height: 31px; padding: 0px 5px 5px 5px; background-image: none; background-color: transparent; }
+		#imMnMn > ul { text-align: center; }
+		#imMnMn li { display: inline; }
+		#imMnMnGraphics { display: none; }
+		#imContent { min-height: 380px; padding: 5px 0 5px 0; }
+		#imContentGraphics { left: 0; right: 0; margin-left: auto; margin-right: auto; min-height: 380px;  background-image: none; background-color: #EFE9E7; }
+		#imFooterBg { height: 90px; background-image: none; background-color: #000000; }
+		#imFooter { margin-left: auto; margin-right: auto; height: 90px; background-image: none; background-color: #000000; }
+		#imFooterObjects { position: relative; height: 90px; }
+		#imFooPad { height: 380px; }
+		#imHeader, #imMnMnContainer, #imFooter { width: 720px; }
+		#imMnMn { width: 710px; }
+		#imContentGraphics { width: 720px; }
+	
+}
+@media  (max-width: 719px) and (min-width: 480px) {
+		html { background-image: none; background-color: #EFE9E7; }
+		#imPage { padding-top: 0; margin-top: 0px; margin-bottom: 0px; min-width: 480px; }
+		#imHeaderBg { height: 433px; background-image: url('header-bg-1--1-.jpg'); background-position: center bottom; background-repeat: repeat-x; background-attachment: scroll; background-color: transparent; }
+		#imHeader { position: relative; margin-bottom: 0; margin-left: auto; margin-right: auto; height: 80px; background-image: none; background-color: #000000; }
+		#imHeaderObjects { position: relative; height: 80px; }
+		#imMnMnContainer { position: absolute; top: 15px; left: 0; right: 0; margin-left: auto; margin-right: auto; }
+		#imMnMn { position: relative; margin-left: 420px; margin-right: auto; height: 31px; padding: 0px 5px 5px 5px; background-image: none; background-color: transparent; }
+		#imMnMn > ul { text-align: center; }
+		#imMnMn li { display: inline; }
+		#imMnMnGraphics { display: none; }
+		#imContent { min-height: 380px; padding: 5px 0 5px 0; }
+		#imContentGraphics { left: 0; right: 0; margin-left: auto; margin-right: auto; min-height: 380px;  background-image: none; background-color: #EFE9E7; }
+		#imFooterBg { height: 90px; background-image: none; background-color: #000000; }
+		#imFooter { margin-left: auto; margin-right: auto; height: 90px; background-image: none; background-color: #000000; }
+		#imFooterObjects { position: relative; height: 90px; }
+		#imFooPad { height: 380px; }
+		#imHeader, #imMnMnContainer, #imFooter { width: 480px; }
+		#imMnMn { width: 30px; }
+		#imContentGraphics { width: 480px; }
+	
+}
+@media  (max-width: 479px) {
+		html { background-image: none; background-color: #EFE9E7; }
+		#imPage { padding-top: 0; margin-top: 0px; margin-bottom: 0px; }
+		#imHeaderBg { height: 433px; background-image: url('header-bg-1--2-.jpg'); background-position: center bottom; background-repeat: repeat-x; background-attachment: scroll; background-color: transparent; }
+		#imHeader { position: relative; margin-bottom: 0; margin-left: auto; margin-right: auto; height: 80px; background-image: none; background-color: #000000; }
+		#imHeaderObjects { position: relative; height: 80px; }
+		#imMnMnContainer { position: absolute; top: 15px; left: 0; right: 0; margin-left: auto; margin-right: auto; }
+		#imMnMn { position: relative; margin-left: 270px; margin-right: auto; height: 31px; padding: 0px 5px 5px 5px; background-image: none; background-color: transparent; }
+		#imMnMn > ul { text-align: center; }
+		#imMnMn li { display: inline; }
+		#imMnMnGraphics { display: none; }
+		#imContent { min-height: 380px; padding: 5px 0 5px 0; }
+		#imContentGraphics { left: 0; right: 0; margin-left: auto; margin-right: auto; min-height: 380px;  background-image: none; background-color: #EFE9E7; }
+		#imFooterBg { height: 90px; background-image: none; background-color: #000000; }
+		#imFooter { margin-left: auto; margin-right: auto; height: 90px; background-image: none; background-color: #000000; }
+		#imFooterObjects { position: relative; height: 90px; }
+		#imFooPad, #imBtMnContainer, #imBtMn, #imPgMnContainer { display: none; }
+		#imMnMn { width: 30px; }
+		#imPage, #imContent, #imContentGraphics, #imFooter { box-sizing: border-box; width: 100%; }
+	
+}
